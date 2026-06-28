@@ -168,3 +168,9 @@ Core Components:
 - Server: Light-weight program that acts like a bridge between your AI and your data (loca files , Google Drive, Company Databases, Knowledge bases) which might require different connecting methods or API calls.
 - Client: AI Application wants to use those data
 - Protocol: The universal set of rules that can be used to setup the bridge easily
+
+
+
+--------------------------- Converting Jupyter Notebook files to Python Scripts --------------------
+#uv pip install nbconvert
+#jupyter nbcovert --to script [<your_notebook_name.ipynb> | *.ipynb]

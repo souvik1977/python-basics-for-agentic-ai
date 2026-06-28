@@ -64,4 +64,5 @@ desktop.ini
 uv.lock
 pyproject.toml
 How-To-GitHub-CLI.md
+.gitignore
 
